@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Caras.vn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Features</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<footer class="container-fluid text-center">
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          </div>
+        <div class="col-sm-4">
+          <form autocomplete="off" id="signup-form" class="setup-form js-signup-form" action="/join" accept-charset="UTF-8" method="post"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="7/9QDHBHLFUTBNYpWZJ0EtUovPqSM4HykSI6TH2HNqhPzVMY4epcno6sJGYgAW1PlyaRZs781h1R7AmPFOnXtA==" type="hidden">
+
+            <h2 class="f2-light mb-1">
+              Register a new account
+            </h2>
+              <div class="flash flash-error my-3">
+              </div>
+          
+            <auto-check src="/signup_check/username" csrf="S7K9tlvpFSqRuzo8hlnMVtYkFnYoiCCwm4Z7EEsTl6ynuNi8DvoGgUkZUQBgcBi43MhH9kzbxNNdfTaZbouMfw==">
+              <dl class="form-group errored"><dt class="input-label"><div class="field-with-errors"><label name="user[login]" autocapitalize="off" autofocus="autofocus" for="user_login">Username</label></div></dt><dd><div class="field-with-errors"><input name="user[login]" autocapitalize="off" autofocus="autofocus" class="form-control" id="user_login" type="text"></div></dd><dd class="error">Login can't be blank</dd></dl>
+            </auto-check>
+          
+            <auto-check src="/signup_check/email" csrf="+gPx05TSEmlLBhTRqCyVpYR9cCUWcKaSr3VEtTkS+CqHygGFJPqYJilravz8Zwz+cfcMWtTRwla/Z3dLzgGOWA==">
+              <dl class="form-group errored"><dt class="input-label"><div class="field-with-errors"><label name="user[email]" autocapitalize="off" for="user_email">Email</label></div></dt><dd><div class="field-with-errors"><input name="user[email]" autocapitalize="off" class="form-control" value="phuonganhnguyen.hvnh@gmail.com" id="user_email" type="text"></div></dd><dd class="error">Email is invalid or already taken</dd></dl>
+            </auto-check>
+          
+            <auto-check src="/signup_check/password" csrf="P268iiOhG7+DqVy4MkE/i7HGfR/5JGh3ZDU/rdsN1mrcZUA5MLMKFf0/hFCK0BWqVkY2wZC4pnjubMU9fhW9yg==">
+              <dl class="form-group"><dt class="input-label"><label name="user[password]" for="user_password">Password</label></dt><dd><input name="user[password]" class="form-control" id="user_password" type="password"><p class="note">Use at least one lowercase letter, one numeral, and seven characters.</p></dd></dl>
+            </auto-check>
+          
+          
+          
+          
+            <input name="source" class="js-signup-source" value="header-home" type="hidden">
+          
+            
+            
+            
+            <input name="required_field_cc67" id="required_field_cc67" style="display: none" class="form-control" type="text">
+          <input name="timestamp" value="1526386447810" class="form-control" type="hidden">
+          <input name="timestamp_secret" value="6d7da375b7c022a8d9c8b5e928c1ff9114640fa5f1872212529494b63d87520a" class="form-control" type="hidden">
+          
+          
+          
+              <p class="tos-info">By clicking “Create an account” below, you agree to our
+              <a href="https://github.com/site/terms" target="_blank">terms of service</a> and
+              <a href="https://github.com/site/privacy" target="_blank">privacy statement</a>. We’ll occasionally send you account related emails.</p>
+          
+            <button type="submit" class="btn btn-primary" id="signup_button" data-disable-with="Creating account…">Create an account</button>
+          
+          </form>
+      
+        </div>
+        <div class="col-sm-4">
+          
+        </div>
+      </div>
+    </div>
+    
+</footer>
+</body>
+</html>
